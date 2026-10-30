@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="description" content="픽커버리 - 사진 복구 어플(com.tonydev901.picovery)의 개인정보처리방침">
+<title>개인정보처리방침 · 픽커버리</title>
+<style>
+  :root {
+    --bg: #F7F9FC; --surface: #FFFFFF; --ink: #17263C; --muted: #4A5870;
+    --accent: #2155D6; --pale: #E9EFFC; --rule: #D5DCE7;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "Apple SD Gothic Neo", "Noto Sans KR", "Noto Sans CJK KR", "Malgun Gothic", system-ui, sans-serif;
+    font-size: 17px; line-height: 1.75;
+    word-break: keep-all; overflow-wrap: break-word;
+  }
+  .page { max-width: 36rem; margin: 0 auto; padding: 48px 24px 64px; }
+  header { padding-bottom: 32px; border-bottom: 1px solid var(--rule); }
+  .app { margin: 0 0 8px; font-size: 15px; font-weight: 600; color: var(--accent); }
+  h1 { margin: 0 0 24px; font-size: 32px; line-height: 1.3; font-weight: 700; text-wrap: balance; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: 8px 24px; margin: 0; font-size: 15px; line-height: 1.6; }
+  dt { color: var(--muted); }
+  dd { margin: 0; min-width: 0; }
+  nav { margin: 32px 0 8px; padding: 20px 24px; background: var(--surface); border: 1px solid var(--rule); border-radius: 16px; }
+  nav h2 { margin: 0 0 8px; padding: 0; border: 0; font-size: 15px; color: var(--muted); }
+  nav ol { margin: 0; padding: 0; list-style: none; columns: 2; column-gap: 24px; font-size: 15px; line-height: 1.6; }
+  nav li { break-inside: avoid; margin: 0; }
+  nav a { display: block; padding: 10px 0; text-decoration: none; }
+  nav a:hover { text-decoration: underline; }
+  section { padding-top: 40px; display: flex; flex-direction: column; gap: 16px; }
+  section > * { margin: 0; }
+  section h2 { font-size: 22px; line-height: 1.4; font-weight: 700; text-wrap: balance; }
+  section h3 { margin-top: 8px; font-size: 19px; line-height: 1.5; font-weight: 700; }
+  p { margin: 0; }
+  ul { padding-left: 20px; }
+  li + li { margin-top: 8px; }
+  li::marker { color: var(--muted); }
+  strong { font-weight: 700; }
+  code { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 0.88em; background: var(--pale); border-radius: 4px; padding: 1px 4px; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  /* Inline padding enlarges the touch area without changing line layout. */
+  header a, main a, footer a { padding: 16px 0; }
+  section a[href^="http"] { overflow-wrap: anywhere; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+  .table { overflow-x: auto; border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.6; }
+  th, td { padding: 12px 16px; text-align: left; vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; background: var(--pale); }
+  tr + tr td, tbody tr:first-child td { border-top: 1px solid var(--rule); }
+  footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--rule); font-size: 15px; color: var(--muted); }
+  footer p { margin: 0; }
+  @media (max-width: 520px) {
+    .page { padding-top: 32px; }
+    h1 { font-size: 28px; }
+    nav ol { columns: 1; }
+    dl { grid-template-columns: 1fr; gap: 0; }
+    dd + dt { margin-top: 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+  <p class="app">픽커버리 - 사진 복구 어플</p>
+  <h1>개인정보처리방침</h1>
+  <dl>
+    <dt>앱</dt><dd>픽커버리 (Android, <code>com.tonydev901.picovery</code>)</dd>
+    <dt>운영자</dt><dd>Wilgon Lab</dd>
+    <dt>문의</dt><dd><a href="mailto:tonydev901@gmail.com">tonydev901@gmail.com</a></dd>
+    <dt>시행일</dt><dd><time datetime="2026-10-30">2026년 10월 30일</time></dd>
+  </dl>
+</header>
+<nav aria-labelledby="toc">
+  <h2 id="toc">목차</h2>
+  <ol>
+<li><a href="#s1">1. 요약</a></li>
+<li><a href="#s2">2. 사진과 파일 처리</a></li>
+<li><a href="#s3">3. 앱이 요청하는 권한</a></li>
+<li><a href="#s4">4. 광고 (Google Mobile Ads SDK, User Messaging Platform)</a></li>
+<li><a href="#s5">5. 광고 제거 구매 (Google Play 결제)</a></li>
+<li><a href="#s6">6. 정보가 앱 밖으로 전달되는 경우</a></li>
+<li><a href="#s7">7. 보관과 파기</a></li>
+<li><a href="#s8">8. 이용자의 선택과 문의</a></li>
+<li><a href="#s9">9. 이 정책 페이지</a></li>
+<li><a href="#s10">10. 변경</a></li>
+  </ol>
+</nav>
+<main>
+<section id="s1" aria-labelledby="h1">
+<h2 id="h1">1. 요약</h2>
+<ul>
+<li>앱에는 회원 가입이나 로그인이 없고, 앱이 이름·이메일·전화번호 같은 가입 정보를 수집하지 않습니다.</li>
+<li>사진 검사, 미리보기, 휴지통 복원, 사본 저장은 기기 안에서 처리합니다. 사진과 파일 정보는 운영자에게 전송되지 않으며, 운영자는 앱 데이터를 받는 서버를 운영하지 않습니다.</li>
+<li>광고를 표시하는 동안 Google 광고 SDK가 기기 정보를 Google로 보낼 수 있습니다(4항).</li>
+<li>광고 제거 구매는 Google Play가 처리하며, 앱은 구매 확인 정보를 기기 안에 보관합니다(5항).</li>
+<li>이메일로 문의하면 회신을 위해 이메일 주소와 문의 내용을 사용합니다(8항).</li>
+</ul>
+</section>
+<section id="s2" aria-labelledby="h2">
+<h2 id="h2">2. 사진과 파일 처리</h2>
+<h3>읽는 범위</h3>
+<p>사용자가 허용한 범위만 읽습니다.</p>
+<ul>
+<li>공유 사진: Android 사진 권한으로 접근할 수 있는 사진(Android 14 이상에서 "선택한 사진만"을 고르면 그 사진만)</li>
+<li>시스템 휴지통(Android 11 이상): Android 미디어 저장소의 휴지통에 있는 사진</li>
+<li>선택 폴더: 사용자가 Android 폴더 선택 화면에서 고른 폴더와 그 하위 폴더</li>
+</ul>
+<h3>사용하는 정보와 목적</h3>
+<p>파일 이름, 폴더 경로, 파일 크기, 형식, 수정일, 휴지통 자동 삭제일, 사진 해상도, 파일 내용으로 계산한 SHA-256 값을 검사 결과 표시, 검색·정렬·필터, 동일 파일 묶기, 저장한 사본의 검증에 사용합니다. 위치 정보(EXIF)를 따로 읽거나 광고에 넘기지 않습니다.</p>
+<h3>보관</h3>
+<p>검사 목록과 미리보기는 앱 메모리에만 있으며 파일이나 서버에 기록하지 않습니다. 앱 프로세스가 종료되거나 설정에서 "검색 기록 지우기"를 누르면 지워집니다. 홈 화면으로 나가거나 최근 앱 화면으로 내리는 것만으로는 바로 지워지지 않을 수 있습니다.</p>
+<h3>휴지통 복원</h3>
+<p>"원본 되살리기"를 누르면 Android 확인 창이 열리고, 사용자가 허용한 경우에만 사진이 휴지통에서 원래 위치로 돌아갑니다. 앱이 사진을 다른 곳으로 옮기거나 지우지 않습니다.</p>
+<h3>사본 저장</h3>
+<p>"사본 저장"을 누르면 원본을 그대로 두고 기기의 <code>Pictures/Picovery</code> 폴더에 새 사본을 만든 뒤 내용을 다시 확인합니다. "저장한 사진" 목록은 따로 기록하지 않고 앱이 만든 사본을 Android 미디어 저장소에서 다시 조회해 보여 줍니다. 저장한 사본은 사용자의 갤러리 파일이므로 앱을 삭제해도 남으며, 갤러리에서 직접 삭제할 수 있습니다.</p>
+<h3>공유</h3>
+<p>저장한 사진에서 "공유"를 누르면 Android 공유 화면에 그 사본 하나의 읽기 권한을 일시적으로 넘깁니다. 받을 앱은 사용자가 고르며, 그 이후의 처리는 받은 앱의 방침을 따릅니다.</p>
+<h3>접근 권한 해제</h3>
+<p>선택 폴더 접근 권한은 Android가 관리하며 앱 데이터를 삭제하거나 앱을 삭제하면 해제됩니다. 사진 권한은 Android 설정의 앱 권한에서 언제든 바꿀 수 있습니다.</p>
+</section>
+<section id="s3" aria-labelledby="h3">
+<h2 id="h3">3. 앱이 요청하는 권한</h2>
+<div class="table"><table>
+<thead><tr><th scope="col">권한</th><th scope="col">용도</th></tr></thead>
+<tbody>
+<tr><td>이미지 읽기 (Android 13 이상), 선택한 사진 접근 (Android 14 이상)</td><td>공유 사진·휴지통 검사</td></tr>
+<tr><td>저장소 읽기 (Android 12 이하)</td><td>같은 용도</td></tr>
+<tr><td>인터넷, 네트워크 상태</td><td>광고, 동의 양식, Google Play 구매 확인</td></tr>
+<tr><td>Google Play 결제</td><td>광고 제거 구매</td></tr>
+<tr><td>광고 ID 및 Android 광고 관련 권한</td><td>Google 광고 SDK가 포함하는 권한(4항)</td></tr>
+</tbody></table></div>
+<p>카메라, 위치, 연락처, 마이크 권한은 요청하지 않습니다.</p>
+</section>
+<section id="s4" aria-labelledby="h4">
+<h2 id="h4">4. 광고 (Google Mobile Ads SDK, User Messaging Platform)</h2>
+<p>광고 제거를 구매하지 않은 경우, 홈 화면 아래에 Google AdMob 배너 광고를 표시합니다. 광고 SDK는 Google LLC가 제공합니다. Google이 공개한 내용에 따르면 Google Mobile Ads SDK는 광고, 분석, 부정 사용 방지를 위해 다음 정보를 자동으로 수집해 Google로 전송하며, 전송 구간은 TLS로 암호화됩니다.</p>
+<ul>
+<li>IP 주소(기기의 대략적인 위치 추정에 쓰일 수 있음)</li>
+<li>앱 실행, 탭, 동영상 조회 등 사용자의 앱 상호작용 정보</li>
+<li>앱 실행 시간, 응답 없음 비율 등 앱과 SDK의 성능·진단 정보</li>
+<li>Android 광고 ID, 앱 세트 ID 등 기기 식별자</li>
+</ul>
+<p>이 정보의 보관과 이용은 Google의 방침을 따르며, 운영자는 이 정보를 직접 받거나 보관하지 않습니다. 앱은 사진, 파일 이름, 경로, SHA-256 값을 광고 SDK에 넘기지 않습니다.</p>
+<h3>동의 안내</h3>
+<p>앱은 Google User Messaging Platform(UMP)을 사용합니다. 개인정보 안내나 동의 양식이 표시되는지는 이용 지역과 AdMob 설정에 따라 다르며, 표시되지 않을 수도 있습니다. 앱은 UMP가 광고 요청을 허용하기 전에는 광고를 요청하지 않습니다. 선택을 바꿀 수 있는 양식이 제공되는 경우 설정의 "광고 개인정보 선택"으로 다시 열 수 있습니다.</p>
+<h3>선택할 수 있는 것</h3>
+<ul>
+<li>기기 설정의 광고 메뉴에서 광고 ID를 재설정하거나 삭제할 수 있습니다(메뉴 위치는 기기마다 다름).</li>
+<li>Google 내 광고 센터에서 맞춤 광고를 끌 수 있습니다.</li>
+<li>양식이 제공되는 경우 설정의 "광고 개인정보 선택"에서 동의 선택을 바꿀 수 있습니다.</li>
+<li>광고 제거를 구매하면 앱은 새 광고를 요청하지 않습니다.</li>
+</ul>
+<h3>참고 (Google 공식 문서)</h3>
+<ul>
+<li>Google Mobile Ads SDK 데이터 공개: <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">https://developers.google.com/admob/android/privacy/play-data-disclosure</a></li>
+<li>Google UMP SDK: <a href="https://developers.google.com/admob/android/privacy">https://developers.google.com/admob/android/privacy</a></li>
+<li>Google이 파트너 앱의 정보를 사용하는 방법: <a href="https://policies.google.com/technologies/partner-sites?hl=ko">https://policies.google.com/technologies/partner-sites?hl=ko</a></li>
+<li>Google 개인정보처리방침: <a href="https://policies.google.com/privacy?hl=ko">https://policies.google.com/privacy?hl=ko</a></li>
+<li>광고 ID 재설정·삭제: <a href="https://support.google.com/googleplay/android-developer/answer/6048248?hl=ko">https://support.google.com/googleplay/android-developer/answer/6048248?hl=ko</a></li>
+</ul>
+</section>
+<section id="s5" aria-labelledby="h5">
+<h2 id="h5">5. 광고 제거 구매 (Google Play 결제)</h2>
+<p>결제는 Google Play가 처리하며 앱은 카드 등 결제 수단 정보를 받지 않습니다. 결제와 주문 정보의 처리는 Google Play 약관과 Google 개인정보처리방침을 따르며, 운영자는 Google Play Console에서 주문 관련 정보를 확인할 수 있습니다.</p>
+<p>광고 제거가 확인되면 Google Play가 발급한 구매 영수증(주문 번호, 상품, 구매 시각, 구매 토큰 등)과 서명을 앱 전용 저장소 중 백업에서 제외되는 영역에 보관해, 오프라인에서도 광고 제거를 유지합니다. 이 파일은 다른 앱이 읽을 수 없고 백업이나 기기 이전에 포함되지 않습니다. 앱을 시작할 때마다 서명을 다시 확인하며, Google Play 조회에서 유효한 구매가 없다고 확인되면(예: 환불) 삭제합니다. 앱 데이터를 삭제하거나 앱을 삭제해도 지워지며, 재설치 후 설정의 "구매 복원"으로 Google Play에서 다시 확인할 수 있습니다.</p>
+</section>
+<section id="s6" aria-labelledby="h6">
+<h2 id="h6">6. 정보가 앱 밖으로 전달되는 경우</h2>
+<p>사용자가 공유를 요청한 경우를 제외하면 앱은 사진, 파일 이름, 경로, SHA-256 값을 운영자나 다른 회사에 보내지 않습니다. 앱을 쓰는 동안 정보가 앱 밖으로 전달되는 경우는 다음과 같습니다.</p>
+<div class="table"><table>
+<thead><tr><th scope="col">받는 곳</th><th scope="col">전달되는 정보</th><th scope="col">이유</th></tr></thead>
+<tbody>
+<tr><td>Google (광고 SDK)</td><td>4항의 기기·이용 정보</td><td>광고 표시, 측정, 부정 사용 방지</td></tr>
+<tr><td>Google Play</td><td>구매와 결제 정보</td><td>광고 제거 결제와 구매 확인</td></tr>
+<tr><td>사용자가 고른 앱</td><td>공유를 누른 사본 1장</td><td>사용자가 요청한 공유</td></tr>
+<tr><td>운영자 (Wilgon Lab)</td><td>이메일 문의의 주소와 내용, Play Console의 주문 관련 정보</td><td>문의 회신, 구매 관련 응대</td></tr>
+</tbody></table></div>
+<p>운영자는 이 정보를 판매하지 않습니다.</p>
+</section>
+<section id="s7" aria-labelledby="h7">
+<h2 id="h7">7. 보관과 파기</h2>
+<p>기기 안의 정보는 다음과 같이 지워집니다.</p>
+<ul>
+<li>검사 목록·미리보기: 앱 프로세스 종료 또는 설정의 "검색 기록 지우기"</li>
+<li>구매 영수증: 유효한 구매가 없다고 확인될 때, 앱 데이터 삭제 또는 앱 삭제</li>
+<li>앱은 Android 백업을 사용하지 않도록 설정되어 있어, 앱 데이터는 클라우드 백업과 기기 간 이전에 포함되지 않습니다.</li>
+<li>저장한 사본은 사용자의 사진 파일이며 사용자가 갤러리에서 삭제합니다.</li>
+</ul>
+<p>Google이 처리하는 정보(4·5항)의 보관은 Google의 방침을 따릅니다. 이메일 문의는 8항을 따릅니다.</p>
+</section>
+<section id="s8" aria-labelledby="h8">
+<h2 id="h8">8. 이용자의 선택과 문의</h2>
+<p>앱 권한 변경, 앱 데이터 삭제, 앱 삭제, 광고 ID 재설정·삭제, 동의 선택 변경(제공되는 경우)으로 처리를 멈추거나 줄일 수 있습니다. 사진 검사 정보는 운영자에게 전송되지 않으므로 운영자에게 따로 열람·삭제를 요청할 사진 검사 정보는 없습니다. Google이 처리하는 정보는 Google 계정과 Google 개인정보 설정에서 관리할 수 있습니다.</p>
+<p>이메일로 문의하면 운영자는 회신을 위해 이메일 주소와 문의 내용을 사용하며, 이 메일은 운영자가 쓰는 이메일 서비스(Gmail)에 보관됩니다. 문의 메일의 삭제를 원하면 같은 주소로 요청할 수 있습니다.</p>
+<ul>
+<li>운영자: Wilgon Lab</li>
+<li>이메일: <a href="mailto:tonydev901@gmail.com">tonydev901@gmail.com</a></li>
+</ul>
+</section>
+<section id="s9" aria-labelledby="h9">
+<h2 id="h9">9. 이 정책 페이지</h2>
+<p>이 페이지는 GitHub Pages로 제공됩니다. 페이지에는 스크립트, 분석 도구, 외부 글꼴이 없으며 운영자는 방문 기록을 수집하지 않습니다. 다만 GitHub는 보안을 위해 방문자의 IP 주소를 기록하고 보관한다고 안내하며, 이는 GitHub 개인정보처리방침을 따릅니다. 앱의 사진이나 파일 정보는 GitHub에 올라가지 않습니다.</p>
+<ul>
+<li>GitHub Pages 안내: <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages</a></li>
+<li>GitHub 개인정보처리방침: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement</a></li>
+</ul>
+</section>
+<section id="s10" aria-labelledby="h10">
+<h2 id="h10">10. 변경</h2>
+<p>내용이 바뀌면 이 페이지에 새 시행일과 변경 내용을 게시합니다.</p>
+<ul>
+<li>2026년 10월 30일: 최초 시행</li>
+</ul>
+</section>
+</main>
+<footer>
+  <p>이 문서는 앱에 구현된 실제 데이터 처리를 설명합니다. 문의: Wilgon Lab · <a href="mailto:tonydev901@gmail.com">tonydev901@gmail.com</a></p>
+</footer>
+</div>
+</body>
+</html>
